@@ -438,7 +438,7 @@ while True:
 display(Markdown(f"\nPronto para começar nosso diário de sentimentos, {nome_usuario.capitalize()}?"))
 
 # --- Fim da Introdução do AnandaBot ---
-
+from IPython.display import display, Markdown
 display(Markdown("# Diário de Sentimentos Interativo"))
 
 while True:
